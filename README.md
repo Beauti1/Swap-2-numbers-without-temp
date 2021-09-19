@@ -1,2 +1,10 @@
-# Swap-2-numbers-without-temp
-Swapping 2 numbers without using temporary number.
+#include<stdio.h>
+int main()
+{
+    int x=10,y=5;
+    x=x+y;
+    y=x-y;
+    x=x-y;
+    printf("After swapping:\n x=%d\n y=%d",x,y);
+    return 0;
+}
